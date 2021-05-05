@@ -1,13 +1,13 @@
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
-body {
+/* body {
     background: #fff;
     color: #444;
     font-family: 'Montserrat', sans-serif;
-}
-
+} */
+/* 
 a {
     color: #1bb1dc;
     transition: 0.5s;
@@ -28,7 +28,7 @@ h6 {
   font-weight: 300;
   margin: 0 0 20px 0;
   padding: 0;
-}
+} */
 
 /*--------------------------------------------------------------
 # Top Bar
@@ -160,4 +160,105 @@ h6 {
   #intro .intro-info .btn-get-started:hover,
   #intro .intro-info .btn-services:hover {
     background: #b6a352;
-  }
+  }  
+
+
+/****** call for Admissions ******/
+
+.contact-us{
+  width: 100%;
+  background: #2D2B46;
+  color: white;
+  font-size: 16px;
+  padding: 40px 0;
+  display: flex;
+}
+
+.contact-us .col-left{
+  width: 70%;
+  padding: 0 20px 0 200px;
+}
+
+.contact-us .col-left h3{
+  padding-bottom: 20px;
+}
+
+.contact-us .col-right{
+  flex: 1;
+  padding-top: 40px;
+  padding-left: 120px;
+}
+
+.contact-us .col-right .contact-here{
+  width: 180px;
+  height: 40px;
+  background: transparent;
+  border: 2px solid white;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.contact-us .col-right .contact-here:hover{
+  background: lightseagreen;
+  border: 2px solid lightseagreen;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+/****** Faculty ******/
+
+.faculty .heading{
+  margin: 0 0 15px 0;
+  font-size: 36px;
+  color: #413E66;
+}
+
+.faculty .sub-heading{
+  margin: 0  0 50px;
+}
+
+.faculty{
+  margin:20px 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faculty-cards{
+  display: flex;
+}
+
+.card{
+  position: relative;
+  margin-left: 20px;
+}
+
+.card .card-body{
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background: rgba(0,0,0,0.7);
+}
+
+.card .card-body i{
+  font-size: 12px;
+}
+
+
+/****** copyright ******/
+
+#footer{
+  display: flex;
+  justify-content: space-around;
+  background: #141224;
+}
+
+.copyright{
+  padding: 30px 0 30px 0;
+  color: white;
+  font-size: 15px;
+}
+
